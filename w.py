@@ -12,10 +12,11 @@ def getchecksum():
     md5_hash.update(content)
     digest = md5_hash.hexdigest()
     return digest
+# for help join my discord: https://discord.gg/QbWGVZvRWc
 keyauthapp = api(
-	name = "login",
-	ownerid = "nYzKOL1jYh",
-	secret = "f9632df6f4d36f04ed87b13b2b73cc6726b0fd224c0f4095d4869a06fd23a8c7",
+	name = "",
+	ownerid = ",
+	secret = "",
 	version = "1.0",
 	hash_to_check = getchecksum()
 )
